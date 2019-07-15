@@ -1,0 +1,10 @@
+# folders
+node_modules
+build
+
+# files
+yarn-error.log
+.yarnrc
+
+# deploy config
+deploy-config.json

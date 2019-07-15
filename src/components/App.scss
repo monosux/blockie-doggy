@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+    
+    body {
+        background: #3B3559;
+        color: #fff;
+        height: 100%;
+
+        #root {
+            position: relative;
+            min-height: 100%;
+        
+            h1, h2, h3, h4 {
+                font-weight: 100;
+            }
+            
+            .page-content {
+                padding-bottom: 100px;
+            }
+
+            .header {
+                text-align: center;
+            
+                .line {
+                    height: 10px;
+                    background: linear-gradient(180deg, #FDB35B 0%, #ED468E 100%);
+                }
+            
+                .conteiner {
+                    padding: 20px 0;
+                }
+            
+                a {
+                    font-size: 300%;
+                    text-decoration: none;
+            
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .message {
+                span {
+                    font-size: 200%;
+                }
+            
+                p {
+                    font-size: 120%;
+                }                
+            }
+
+            .card {
+                color: #212529;
+            }
+
+            .styled-card {
+                background: #322F48;
+                padding: 20px 0 20px;
+                border-radius: 5px;
+                position: relative;
+
+                &.styled-card-line {
+                    padding-top: 30px;
+
+                    &:before {
+                        content: "";
+                        width: 100%;
+                        height: 10px;                    
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: linear-gradient(180deg, #FDB35B 0%, #ED468E 100%);
+                    }
+                }
+            }
+
+            .claim {
+                border: 1px solid #fff;
+                border-radius: 4px;
+            
+                .claim-icon {
+                    font-size: 200%;
+                }
+            }
+
+            footer {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 10px 0;    
+            }
+        }
+    }
+}
+

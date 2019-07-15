@@ -1,0 +1,50 @@
+{
+	"name": "blockie-doggy",
+	"version": "1.0.0",
+	"description": "Blockchain based animal registry",
+	"main": "src/index.js",
+	"repository": "https://github.com/monosux/blockie-doggy",
+	"author": "Alexeev Sergey <alexeev.sergey.a@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"dependencies": {
+		"bootstrap": "^4.3.1",
+		"classnames": "^2.2.6",
+		"drizzle": "^1.4.0",
+		"drizzle-react": "^1.3.0",
+		"ethereum-blockies-base64": "^1.0.2",
+		"ipfs-http-client": "^32.0.1",
+		"moment": "^2.24.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-js-pagination": "^3.0.2",
+		"react-router-dom": "^5.0.1",
+		"simple-react-validator": "^1.2.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/plugin-proposal-class-properties": "^7.4.4",
+		"@babel/plugin-transform-runtime": "^7.5.0",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.6",
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^3.0.0",
+		"file-loader": "^4.0.0",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.7.0",
+		"moment-locales-webpack-plugin": "^1.0.7",
+		"node-sass": "^4.12.0",
+		"openzeppelin-solidity": "^2.3.0",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"truffle-hdwallet-provider": "^1.0.11",
+		"webpack": "^4.35.0",
+		"webpack-cli": "^3.3.5",
+		"webpack-dev-server": "^3.7.2"
+	},
+	"scripts": {
+		"start": "webpack-dev-server --mode development",
+		"build": "webpack --mode production"
+	}
+}
