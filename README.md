@@ -1,7 +1,7 @@
 # Blockie Doggy: blockchain based animal registry
 
 ## Demo
-Demo running on Görli Testnet: [Blockie Doggy Demo IPFS](https://ipfs.infura.io/ipfs/QmTwrT6REUvVEqrCPf8wBYamYkuENvQqyRbNcKmxKU5PRj/)
+Demo running on Rinkeby Testnet: [QmcyVnRJ64wLjvPiqMwQWQuBTAebMHxPXRumKVjv6xgSnw](https://ipfs.infura.io/ipfs/QmcyVnRJ64wLjvPiqMwQWQuBTAebMHxPXRumKVjv6xgSnw/)
 
 ## About 
 The Blockie Doggy is a demo project created during Truffle Univerity. The project shows how ERC721 token can be used to create a simple decentralized animal registry.

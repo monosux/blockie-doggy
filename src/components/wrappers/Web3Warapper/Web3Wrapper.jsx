@@ -56,7 +56,7 @@ export default (WrappedComponent) => {
                 content = <Message 
                     message={[
                         'We can not connect to the Ethereum network.',
-                        <React.Fragment>Please be sure that your browser connected to the Ethereum and you selected <b>Görli Network</b>.</React.Fragment>
+                        <React.Fragment>Please be sure that your browser connected to the Ethereum and you selected <b>Rinkeby Network</b>.</React.Fragment>
                     ]} 
                     messageClasses={['mt-2']} 
                     emoji="plug" 

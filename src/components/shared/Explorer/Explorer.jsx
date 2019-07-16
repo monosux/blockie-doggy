@@ -4,7 +4,7 @@ import classNames from 'classnames';
 class Explorer extends React.Component {
     constructor(props) {
         super(props);
-        this.explorer = 'https://blockscout.com/eth/goerli/';
+        this.explorer = 'https://blockscout.com/eth/rinkeby/';
     }
 
     render() {
